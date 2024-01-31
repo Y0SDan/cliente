@@ -20,7 +20,7 @@ export class ConectaComponent implements OnInit {
 
   ngOnInit(): void {
     this.conectaService.list().subscribe((rescontacto: any) => {
-      this.contacto = rescontacto;
+      this.contactos = rescontacto;
       console.log(rescontacto);
     },
       err => console.error(err)
