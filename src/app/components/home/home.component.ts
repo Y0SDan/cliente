@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     $('.carousel.carousel-slider').carousel({
       fullWidth: true,
-      //fullheight: true,
+      fullheight: true,
       indicators: true, //muestra los puntos indicadores
       duration: 300 //velocidad de transición
     });
