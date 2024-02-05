@@ -1,11 +1,3 @@
 router-outlet {
   flex-grow: 1;
 }
-.parallax-container {
-  position: relative;
-}
-
-.responsive-img {
-  width: 20%;
-  height: auto;
-}
