@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
     $('.carousel.carousel-slider').carousel({
       fullWidth: true,
       //fullheight: true,
-      indicators: false, //muestra los puntos indicadores
+      indicators: true, //muestra los puntos indicadores
       duration: 300 //velocidad de transición
     });
 
