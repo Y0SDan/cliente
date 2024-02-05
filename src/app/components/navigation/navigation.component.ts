@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -6,11 +6,20 @@ import { Router } from '@angular/router';
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.css']
 })
-export class NavigationComponent implements OnInit {
+export class NavigationComponent implements OnInit, AfterViewInit {
+
+  @ViewChild('navbar', { static: false }) navbar!: ElementRef;
 
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  ngAfterViewInit(): void { // Se ejecuta despues de que la vista se haya cargado (para saber el tamaño de la barra de navegacion)
+    let width = this.navbar.nativeElement.offsetWidth;
+    let height = this.navbar.nativeElement.offsetHeight;
+    console.log('Width: ', width);
+    console.log('Height: ', height);
   }
 
   logout(){

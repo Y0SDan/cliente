@@ -13,12 +13,6 @@ const routes: Routes = [
   {
     path:"home",
     component:HomeComponent,
-    children:[
-      {
-        path:"contacto",
-        component:ConectaComponent
-      }
-    ]
   }
 ];
 
