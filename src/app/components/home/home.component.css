@@ -5,70 +5,7 @@ router-outlet {
   position: relative;
 }
 
-.carousel {
-  position: absolute; 
-  top: 30%; /* Posición en pixeles */
-  left: 0%;
-  width: 100%;
-  height: 60%;
-  background-color: rgba(0, 0, 0, 0);  /* Puedes ajustar el color y la opacidad según tus necesidades */
-}
-
-/*Posicionar una imagen encima de la otra y luego rotarlas*/
-
-.image-container {
-  position: relative;
-  width: 300px;
-  height: 300px;
-}
-
-.bottom-image, .top-image {
-  position: absolute;
-  width: 120%;
-  height: 120%;
-  transform-origin: center;
-}
-
-.bottom-image {
-  transform: rotate(-10deg);
-  /*right: 50px; /* Posiciona la imagen a la izquierda */
-}
-
-.top-image {
-  transform: rotate(10deg);
-  left: 450px; /* Posiciona la imagen a la derecha */
-}
-
-/* TEngo que hacerlo para cada imagen? */  
-
-/*Posicionar una imagen encima de la otra y luego rotarlas*/
-
-.image-container2 {
-  position: relative;
-  width: 467px;
-  height: 350px;
-}
-
-.bottom-image2 {
-  position: absolute;
-  width: 120%;
-  height: 120%;
-  transform-origin: center;
-  transform: rotate(-10deg);
-  left: 400px; /* Posiciona la imagen a la izquierda */
-}
-
-.bottom-image3 {
-  position: absolute;
-  width: 120%;
-  height: 120%;
-  transform-origin: center;
-  transform: rotate(-10deg);
-  left: 300px; /* Posiciona la imagen a la izquierda */
-}
-
-.image-container3 {
-  position: relative;
-  width: 619px;
-  height: 300px;
+.responsive-img {
+  width: 20%;
+  height: auto;
 }
