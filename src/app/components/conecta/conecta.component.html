@@ -1,11 +1,4 @@
-<p>conecta works!</p>
-
 <h2>Contactos</h2>
-
-
-<div>
-  {{ contacto | json }} 
-</div>
 
 <table class="default" *ngIf="contactos != undefined">
   <tr *ngFor="let contacto of contactos">
@@ -13,6 +6,8 @@
     <td>{{contacto.email}}</td>
   </tr>
 </table>
+
+<br>
 
 
 
