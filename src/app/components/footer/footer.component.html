@@ -16,8 +16,8 @@
             <ul>
               <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/profile.php?id=100083535093731" target="_blank">Facebook</a></li>
               <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/hifas.de.grana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instragram</a></li>
-              <li><a class="grey-text text-lighten-3" href="/acerca-de">Acerca de</a></li>
-              <li><a class="grey-text text-lighten-3" href="/faq">FAQ</a></li>
+              <li><a class="grey-text text-lighten-3" (click)="acerca_de()">Acerca de</a></li>
+              <li><a class="grey-text text-lighten-3" (click)="faq()">FAQ</a></li>
             </ul>
           </div>
         </div>
@@ -25,7 +25,9 @@
       <div class="footer-copyright">
         <div class="container">
         © 2014 Copyright
+        
         <a (click)="login()" class="grey-text text-lighten-4 right" >Login</a>
+        
         </div>
       </div>
     </footer>

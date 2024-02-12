@@ -16,5 +16,11 @@ export class FooterComponent implements OnInit {
   login(){
     this.router.navigate(['/login']);
   }
+  acerca_de(){
+    this.router.navigate(['/acerca-de']);
+  }
+  faq(){
+    this.router.navigate(['/faq']);
+  }
 
 }
