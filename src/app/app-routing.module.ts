@@ -12,7 +12,7 @@ import { FaqComponent } from './components/faq/faq.component';
 const routes: Routes = [
   {
     path:"",
-    redirectTo:"/conecta",
+    redirectTo:"/home",
     pathMatch:"full"
   },
   {
