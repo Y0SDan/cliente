@@ -22,5 +22,11 @@ export class FooterComponent implements OnInit {
   faq(){
     this.router.navigate(['/faq']);
   }
+  contacto(){
+    this.router.navigate(['/contactos']);
+  }
+  galeria(){
+    this.router.navigate(['/galeria']);
+  }
 
 }
