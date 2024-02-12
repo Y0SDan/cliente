@@ -28,4 +28,11 @@ export class NavigationComponent implements OnInit, AfterViewInit {
     localStorage.removeItem("correo")
     this.router.navigateByUrl('');
   }
+
+  contacto(){
+    this.router.navigate(['/contacto']);
+  }
+  galeria(){
+    this.router.navigate(['/galeria']);
+  }
 }
