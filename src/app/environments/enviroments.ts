@@ -1,4 +1,4 @@
 export const environment = {
-    production: true,
-    API_URI: "https://hifas-de-grana.onrender.com:4200/",
+    production: false,
+    API_URI: 'https://proyectoserver.onrender.com//api',
 };

@@ -1,5 +1,5 @@
 // environment.prod.ts
 export const environment = {
   production: true,
-  apiUrl: 'https://proyectoserver.onrender.com//api', // UR
+  API_URI: 'https://proyectoserver.onrender.com//api',
   };
