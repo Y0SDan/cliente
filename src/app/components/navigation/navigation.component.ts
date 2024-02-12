@@ -30,7 +30,7 @@ export class NavigationComponent implements OnInit, AfterViewInit {
   }
 
   contacto(){
-    this.router.navigate(['/contacto']);
+    this.router.navigate(['/contactos']);
   }
   galeria(){
     this.router.navigate(['/galeria']);

@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    API_URI: 'https://hifas-de-grana.onrender.com', // URL del servidor en producción bueno
+    API_URI: 'https://hifas-de-grana.onrender.com/api', // URL del servidor en producción bueno
 };
