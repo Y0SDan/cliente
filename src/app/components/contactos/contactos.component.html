@@ -1,31 +1,31 @@
 <div class="container">
-    <h2>¡Escribenos! =D</h2>
-    <form>
-      <div class="input-field">
-        <input id="name" type="text" class="validate" [(ngModel)]="contacto.name" name="name">
-        <label for="name">Nombre</label>
-      </div>
-      <div class="input-field">
-        <input id="email" type="email" class="validate" [(ngModel)]="contacto.email" name="email">
-        <label for="email">Email</label>
-      </div>
-      <div class="input-field">
-        <textarea id="message" class="materialize-textarea" [(ngModel)]="contacto.message" name="message"></textarea>
-        <label for="message">Mensaje</label>
-      </div>
-      <button class="btn waves-effect waves-light" type="submit" name="action" (click)="agregarContacto(); $event.preventDefault()">Enviar
-        <i class="material-icons right">send</i>
-      </button>
-    </form>
+  <h2>¡Escribenos! =D</h2>
+  <form>
+    <div class="input-field">
+      <input id="name" type="text" class="validate" [(ngModel)]="contacto.name" name="name">
+      <label for="name">Nombre</label>
+    </div>
+    <div class="input-field">
+      <input id="email" type="email" class="validate" [(ngModel)]="contacto.email" name="email">
+      <label for="email">Email</label>
+    </div>
+    <div class="input-field">
+      <textarea id="message" class="materialize-textarea" [(ngModel)]="contacto.message" name="message"></textarea>
+      <label for="message">Mensaje</label>
+    </div>
+    <button class="btn waves-effect waves-light" type="submit" name="action" (click)="agregarContacto(); $event.preventDefault()">Enviar
+      <i class="material-icons right">send</i>
+    </button>
+  </form>
 </div>
 
 <!-- Modal Structure -->
 <div id="modal1" class="modal">
-  <div class="modal-content">
-    <h4>Mensaje Enviado</h4>
-    <p>Tu mensaje ha sido enviado correctamente.</p>
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
-  </div>
+<div class="modal-content">
+  <h4>Mensaje Enviado</h4>
+  <p>Tu mensaje ha sido enviado correctamente.</p>
+</div>
+<div class="modal-footer">
+  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
+</div>
 </div>
